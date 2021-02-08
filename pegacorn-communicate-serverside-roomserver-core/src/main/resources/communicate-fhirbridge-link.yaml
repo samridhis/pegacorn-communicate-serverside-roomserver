@@ -1,0 +1,15 @@
+id: "Communicate-FHIRBridge-Link"
+url: "http://10.100.100.99:17010"
+as_token: "ClaudeAndClara01"
+hs_token: "ClaraAndClaude01"
+sender_localpart: "_fhirbridge"
+namespaces:
+  users: 
+    - exclusive: false
+      regex: "@.*"
+  aliases: 
+    - exclusive: false
+      regex: "@.*"
+  rooms: 
+    - exclusive: false
+      regex: "@.*"

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	
+    <parent>
+        <groupId>net.fhirfactory.pegacorn</groupId>
+        <artifactId>pegacorn-communicate-serverside-roomserver</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>pegacorn-communicate-serverside-roomserver-core</artifactId>
+    <packaging>war</packaging>
+        
+    <name>Pegacorn :: Communicate :: Server Side :: Room Server :: Core (Synapse)</name>
+
+    <url>http://pegacorn.fhirfactory.net</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <netbeans.hint.license>mit</netbeans.hint.license>
+    </properties>
+
+    <dependencyManagement>
+
+    </dependencyManagement>
+
+    <dependencies>
+    </dependencies>
+
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jkube</groupId>
+                <artifactId>kubernetes-maven-plugin</artifactId>
+                <version>1.0.2</version>
+                <configuration>
+                    <images>
+                        <name>pegacorn-communicate-serverside-roomserver-core:1.0.0</name>
+                        <alias>roomserver-core</alias>
+                        <build>
+                            <from>docker.io/matrixdotorg/synapse:%l</from>
+                        </build>
+                    </images>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>

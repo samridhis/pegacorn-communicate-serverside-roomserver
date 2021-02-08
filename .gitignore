@@ -21,3 +21,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+pegacorn-communicate-serverside-roomserver-adminui/.classpath
+
+pegacorn-communicate-serverside-roomserver-adminui/.project
+
+pegacorn-communicate-serverside-roomserver-adminui/.settings/
+
+pegacorn-communicate-serverside-roomserver-adminui/target/
+
+pegacorn-communicate-serverside-roomserver-core/target/
+
+pegacorn-communicate-serverside-roomserver-database/target/
+
+pegacorn-communicate-serverside-roomserver-core/.settings/
+
+pegacorn-communicate-serverside-roomserver-database/.classpath
+
+pegacorn-communicate-serverside-roomserver-database/.project
+
+pegacorn-communicate-serverside-roomserver-database/.settings/
+
+*.iml
