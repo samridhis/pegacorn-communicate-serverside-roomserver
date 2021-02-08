@@ -19,8 +19,8 @@
     <url>http://pegacorn.fhirfactory.net</url>
 
 	<modules>
-		<module>pegacorn-communicate-serverside-roomserver-core</module>
-		<module>pegacorn-communicate-serverside-roomserver-database</module>
-		<module>pegacorn-communicate-serverside-roomserver-adminui</module>
+		<module>../pegacorn-communicate-serverside-roomserver-core</module>
+		<module>../pegacorn-communicate-serverside-roomserver-database</module>
+		<module>../pegacorn-communicate-serverside-roomserver-adminui</module>
 	</modules>
 </project>
